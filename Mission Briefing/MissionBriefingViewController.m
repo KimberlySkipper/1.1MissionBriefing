@@ -76,7 +76,7 @@
         //    Set the textview text property to the paragraph in "MissionBriefing.txt"
         //
         
-        self.missionBriefingTextView.text = [NSString stringWithFormat:@"This mission will be an arduous one, fraught with peril. You will cover much strange and unfamiliar territory. Should you choose to accept this mission, [lastName], you will certainly be disavowed, but you will be doing your country a great service. This message will self destruct in 5 seconds." ];
+        self.missionBriefingTextView.text = [NSString stringWithFormat:@"This mission will be an arduous one, fraught with peril. You will cover much strange and unfamiliar territory. Should you choose to accept this mission, Agent %@, you will certainly be disavowed, but you will be doing your country a great service. This message will self destruct in 5 seconds.", lastName ];
         
         //
         // 5. The view's background color needs to switch to green to indicate a successful login by the agent.
